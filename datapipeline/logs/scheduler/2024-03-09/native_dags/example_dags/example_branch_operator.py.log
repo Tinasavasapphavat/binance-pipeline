@@ -1,0 +1,125 @@
+[2024-03-09T19:29:10.933+0000] {processor.py:161} INFO - Started process (PID=84532) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:10.934+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:29:10.935+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:29:10.935+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:10.950+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:29:10.949+0000] {dagbag.py:350} ERROR - Failed to import: /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-09T19:29:10.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:10.974+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2024-03-09T19:29:57.577+0000] {processor.py:161} INFO - Started process (PID=84741) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:57.579+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:29:57.580+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:29:57.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:57.589+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:29:57.588+0000] {dagbag.py:350} ERROR - Failed to import: /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-09T19:29:57.590+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:29:57.605+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.030 seconds
+[2024-03-09T19:30:56.517+0000] {processor.py:161} INFO - Started process (PID=84918) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:30:56.519+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:30:56.520+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:30:56.520+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:30:56.530+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:30:56.528+0000] {dagbag.py:350} ERROR - Failed to import: /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-09T19:30:56.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:30:56.547+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.032 seconds
+[2024-03-09T19:31:52.008+0000] {processor.py:161} INFO - Started process (PID=85087) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:31:52.010+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:31:52.011+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:31:52.011+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:31:52.022+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:31:52.021+0000] {dagbag.py:350} ERROR - Failed to import: /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-09T19:31:52.022+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:31:52.038+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.033 seconds
+[2024-03-09T19:32:40.979+0000] {processor.py:161} INFO - Started process (PID=85247) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:32:40.981+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:32:40.983+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:32:40.982+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:32:40.997+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:32:40.996+0000] {dagbag.py:350} ERROR - Failed to import: /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-09T19:32:40.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:32:41.021+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.045 seconds
+[2024-03-09T19:33:35.436+0000] {processor.py:161} INFO - Started process (PID=85566) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:33:35.437+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:33:35.438+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:33:35.451+0000] {processor.py:840} INFO - DAG(s) 'example_branch_operator' retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:33:35.537+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.536+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2024-03-09T19:33:35.547+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.547+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2024-03-09T19:33:35.555+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.555+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2024-03-09T19:33:35.556+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.556+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T19:33:35.566+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.565+0000] {dag.py:3069} INFO - Creating ORM DAG for example_branch_operator
+[2024-03-09T19:33:35.574+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:33:35.573+0000] {dag.py:3834} INFO - Setting next_dagrun for example_branch_operator to 2024-03-08 00:00:00+00:00, run_after=2024-03-09 00:00:00+00:00
+[2024-03-09T19:33:35.599+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.165 seconds
+[2024-03-09T19:34:27.998+0000] {processor.py:161} INFO - Started process (PID=85685) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:34:28.000+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:34:28.001+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:34:28.001+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:34:28.013+0000] {processor.py:840} INFO - DAG(s) 'example_branch_operator' retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:34:28.030+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:34:28.029+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T19:34:28.045+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:34:28.045+0000] {dag.py:3834} INFO - Setting next_dagrun for example_branch_operator to 2024-03-08 00:00:00+00:00, run_after=2024-03-09 00:00:00+00:00
+[2024-03-09T19:34:28.064+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2024-03-09T19:35:16.352+0000] {processor.py:161} INFO - Started process (PID=85903) to work on /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:35:16.354+0000] {processor.py:830} INFO - Processing file /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-09T19:35:16.354+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:35:16.354+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:35:16.367+0000] {processor.py:840} INFO - DAG(s) 'example_branch_operator' retrieved from /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-09T19:35:16.383+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:35:16.383+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T19:35:16.399+0000] {logging_mixin.py:188} INFO - [2024-03-09T19:35:16.399+0000] {dag.py:3834} INFO - Setting next_dagrun for example_branch_operator to 2024-03-08 00:00:00+00:00, run_after=2024-03-09 00:00:00+00:00
+[2024-03-09T19:35:16.417+0000] {processor.py:183} INFO - Processing /home/tin/miniconda3/envs/airflow/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
