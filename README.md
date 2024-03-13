@@ -48,7 +48,7 @@ here is the result of the table
 here is a dashboard to display OHLC, since the api has been changed to kline chart for one minute interval
 https://lookerstudio.google.com/reporting/ed489ffa-eccc-4a80-9376-5b6bf1290a62
 
-# noted: For OHLC dashboard pipeline will be not different but api request from @trade to @kline
+### noted: For OHLC dashboard pipeline will be not different but api request from @trade to @kline
 
 
 
