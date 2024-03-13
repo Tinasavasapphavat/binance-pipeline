@@ -36,7 +36,7 @@ figure 3
 connect Binance websocket(trade stream)
 according to the limitation of gcp service on my account and ingesting time is limited for 10 minutes only, Using **cloud compoeser** will be triggered every 10 minutes or using VM will be used to execute from the code you can see the code  in **/func/stream_binance** 
 
-![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/3ee54a47-6afe-4db2-9b83-2a90d3fe340b)
+![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/35a93804-5522-46fc-a837-137bfd32817c)
 
 the result will be shown below
 
