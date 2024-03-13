@@ -29,18 +29,24 @@ figure 2.1 represents how the data looks like
 figure 3
 
 ![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/1abbecd9-c992-4bf5-957d-922793f2c3b1)
-## noted: since there is a location restricted issue(we must be us resident), so the pipeline can orchrestrate only couple times
+## noted: since there is a location restricted issue(we must be US resident), so the pipeline can orchrestrate only couple times
 
 
 # Real-time pipeline
 connect Binance websocket(trade stream)
-according to the limitation of gcp service on my account, Only VM will be used to execute from the code you can see the code in **/func/stream_binance** 
+according to the limitation of gcp service on my account and ingesting time is limited for 10 minutes only, Using **cloud compoeser** will be triggered every 10 minutes or using VM will be used to execute from the code you can see the code  in **/func/stream_binance** 
+
+![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/3ee54a47-6afe-4db2-9b83-2a90d3fe340b)
+
 the result will be shown below
 
 ![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/d02ed578-cb3e-43e6-847e-a004871b1777)
 
 here is the result of the table
 ![image](https://github.com/Tinasavasapphavat/bittaza-test/assets/115886539/ae686afa-84b3-463a-8695-6066f7178269)
+
+here is a dashboard to display OHLC, since the api has been changed to kline chart for one minute interval
+https://lookerstudio.google.com/reporting/ed489ffa-eccc-4a80-9376-5b6bf1290a62
 
 
 
